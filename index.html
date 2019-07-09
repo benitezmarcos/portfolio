@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<!--imagehover CDN-->
+<link rel="stylesheet" href="assets/css/imagehover.min.css">
+<!--Bootstrap-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<body>
+
+  <div class="w3-sidebar w3-bar-block w3-dark-grey" style="width:25%">
+    <!-- <div class="w3-container w3-dark-grey">
+      <h4>Menu</h4>
+    </div> -->
+
+    <img src="assets/img/me.jpg" alt="me" style="width:100%">
+    <a href="#home" class="w3-bar-item w3-button w3-red"><i class="fe fas fa-home"></i>Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button"><i class="fe fas fa-folder-open"></i>Projects
+      <a href="#about" class="w3-bar-item w3-button"><i class="fe fas fa-user-circle"></i>About</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fe fas fa-envelope"></i>Contact</a>
+
+      <!-- <div class="w3-panel w3-blue-grey w3-display-container">
+    <span onclick="this.parentElement.style.display='none'" class="w3-button w3-blue-grey w3-display-topright">&times;</span>
+    <p>Lorem ipsum box...</p>
+  </div> -->
+
+  </div>
+
+  <!--Content-->
+  <div style="margin-left:25%">
+    <!--Main page-->
+    <div class="body-container">
+      <div class="main" id="home">
+        <!-- <img class="slideshow" src="assets/img/bg.jpg">
+        <img class="slideshow" src="assets/img/bg2.jpg">
+        <img class="slideshow" src="assets/img/bg3.jpg">
+        <img class="slideshow" src="assets/img/bg4.jpg"> -->
+      </div>
+
+
+
+
+    </div>
+    <!--Portfolio page-->
+    <div class="main" id="portfolio">
+      <div class="w3-container header">
+        <h3>PORTFOLIO</h3>
+      </div>
+      <div id="container">
+
+        <!--row 1-->
+        <div id="row">
+          <div id="col-md-12">
+            <figure class="imghvr-blur">
+              <img src="assets/img/mediator.jpg" class="portfolio-pic">
+              <figcaption>
+                <h4>The Mediator</h4>
+                <p>submit two photos allow the public to vote on it to settle things once and for all!</p>
+                <button type="button" class="btn btn-outline-light">Launch</button>
+              </figcaption>
+              <a href="http://project2-teamproject.herokuapp.com/"></a>
+            </figure>
+
+            <figure class="imghvr-blur">
+              <img src="assets/img/friends.png" class="portfolio-pic">
+              <figcaption>
+                <h4>Friend Finder</h4>
+                <p>A fullstack app made with express</p>
+                <button type="button" class="btn btn-outline-light">Launch</button>
+              </figcaption>
+              <a href="https://damp-hamlet-55339.herokuapp.com/"></a>
+            </figure>
+
+            <figure class="imghvr-blur">
+              <img src="assets/img/event.png" class="portfolio-pic">
+              <figcaption>
+                <h4>Event Hunter</h4>
+                <p>An app designed to locate upcoming events near your city</p>
+                <button type="button" class="btn btn-outline-light">Launch</button>
+              </figcaption>
+              <a href="https://pironj.github.io/Group-Project-1/"></a>
+            </figure>
+
+          </div>
+        </div>
+
+        <!--row 2-->
+        <div id="row">
+          <div id="col-md-12">
+
+            <figure class="imghvr-blur">
+              <img src="assets/img/brgr.png" class="portfolio-pic">
+              <figcaption>
+                <h4>Eat Da Burger!</h4>
+                <p>An app made with Express and Handlebars</p>
+                <button type="button" class="btn btn-outline-light">Launch</button>
+              </figcaption>
+              <a href="https://murmuring-atoll-51732.herokuapp.com/index"></a>
+            </figure>
+
+            <figure class="imghvr-blur">
+              <img src="assets/img/hang.png" class="portfolio-pic">
+              <figcaption>
+                <h4>Hangman Game</h4>
+                <p>A noir cinema themed hangman game</p>
+                <button type="button" class="btn btn-outline-light">Launch</button>
+              </figcaption>
+              <a href="https://benitezmarcos.github.io/Word-Guess-Game/"></a>
+            </figure>
+
+            <figure class="imghvr-blur">
+              <img src="assets/img/cassette-01.png" class="portfolio-pic">
+              <figcaption>
+                <h4>Word Guess Game</h4>
+                <p>A Javascript quiz with an 80s rock theme </p>
+                <button type="button" class="btn btn-outline-light">Launch</button>
+              </figcaption>
+              <a href="https://benitezmarcos.github.io/triviagame/"></a>
+            </figure>
+
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+
+    <!--About page-->
+    <div class="main" id="about">
+      <div class="w3-container header">
+        <h3>ABOUT</h3>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="assets/img/about-image.jpeg" class="about-img">
+          </div>
+          <div class="col-md-6">
+            <p>I am a music teacher and audio engineer. I am currently enrolled at the University of Washington
+              as a Full Stack Web Development student. I hope to use the skills aquired in this course to improve
+              my teaching efficiency and media creation.
+              <div class="row about-data">
+                <button type="button" class="btn btn-lg btn-outline-danger">Resume</button>
+
+              </div>
+
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--Contact page-->
+    <div class="main" id="contact">
+      <div class="w3-container header">
+        <h2>CONTACT</h2>
+      </div>
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-12">
+            <a href="https://github.com/benitezmarcos">
+              <i class="fab fi fa-github-square"></i>
+            </a>
+            <a href="https://github.com/benitezmarcos">
+              <i class="fab fi fa-linkedin"></i>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- <div class="row">
+          <div class="col-md-12">
+            <a href="https://github.com/benitezmarcos">
+              <i class="fab fi fa-linkedin"></i>
+            </a>
+          </div>
+
+        </div> -->
+
+        <div class="row">
+          <div class="col-md-12">
+            <a href="mailto:benitez.marcos1@gmail.com">
+              <i class="fas fi fa-envelope-square"></i>
+            </a>
+            <a href="https://twitter.com/wulphsbane">
+                <i class="fab fi fa-twitter-square"></i>
+              </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  </div>
+
+  <!--font awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+</body>
+
+</html>

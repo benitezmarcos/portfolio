@@ -1,0 +1,115 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  #home {
+    height: 605px;
+    /* background-color: pink; */
+    padding-bottom: 5px;
+    background:url('../img/bg.jpg');
+    background-size: cover;
+    opacity: 50%;
+
+  }
+  
+  #portfolio {
+    height: 605px;
+    /* background-color: yellow; */
+
+    
+  }
+  .portfolio-pic{
+    height: 250px;
+    width: 250px;
+  }
+
+  #about {
+    height: 605px;
+    /* background-color: teal; */
+
+    
+  }
+
+  #contact {
+    height: 600px;
+    /* background-color: lavender; */
+
+    
+  }
+
+  .body-container{
+      
+      padding-bottom: 0.02em;
+      background-color: #f1f1f1;
+  }
+  .icons-container{
+    justify-content: center;
+    justify-self: center;
+    align-content: center;
+  }
+  .w3-container{
+    padding-bottom: 0.02em;
+
+  }
+
+  .header{
+      background-color: #f44336;
+      color:#fff;
+  }
+
+  .fab, .fas{
+    font-size: 4em;
+    
+}
+.fe{
+  font-size:12px;
+}
+.fi{
+  color:#f44336;
+}
+#portfolio{
+    justify-content: center;
+    text-align: center;
+    justify-self: center;
+}
+.main{
+    justify-content: center;
+    text-align: center;
+    justify-self: center;
+    padding-bottom: 0.01em;
+}
+img {
+    background-color: #f44336;
+}
+figcaption{
+    align-content: center;
+}
+
+#container{
+    padding-top: 10px;
+}
+
+.container{
+  padding-top: 10px;
+}
+
+.about-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.about-data{
+  justify-content: center;
+}  
+
+
+
+@media only screen and (max-width: 600px) {
+  #portfolio {
+    height: 1000px;
+  }
+  .portfolio-pic{
+    height: 150px;
+    width: 150px;
+  }
+}
